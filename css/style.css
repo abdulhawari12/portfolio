@@ -1,0 +1,50 @@
+@font-face{
+  src: url("assets/fonts/Nunito-Bold.ttf");
+  font-family: "bold";
+}
+@font-face{
+  src: url("assets/fonts/Nunito-Regular.ttf");
+  font-family: "regular";
+}
+@font-face{
+  src: url("assets/fonts/Nunito-Light.ttf");
+  font-family: "light";
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: all 0.3s ease-in-out;
+  text-decoration: none;
+  border: none;
+  outline: none;
+  font-family: regular;
+  -webkit-tap-highlight-color: transparent;
+}
+:root{
+  --primary:#4e73df;
+  --light: #f8f9fc;
+  --darksmoke: #5a5c69;
+  --dark: #11101d;
+}
+body{
+  padding-top: 80px;
+  background: var(--color-light);
+}
+.navbar{
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: var(--primary);
+  width: 100%;
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+.navbar h3{
+  font-size: 20px;
+  color: var(--light);
+  font-family: bold;
+}

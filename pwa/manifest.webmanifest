@@ -1,0 +1,20 @@
+{
+  "name": "Portfolio",
+  "short_name": "Portfolio",
+  "start_url": "http://localhost:8000/index.html",
+  "display": "standalone",
+  "background_color": "#fff",
+  "description": "My Portfolio | Abdulhawari",
+  "icons": [
+    {
+      "src": "../assets/image/android-icons-320x192.jpeg",
+      "sizes": "320x192",
+      "type": "image/jpeg"
+    },
+    {
+      "src": "../assets/image/ms-icons-192x115.jpeg",
+      "sizes": "192x115",
+      "type": "image/jpeg"
+    }
+  ]
+}
